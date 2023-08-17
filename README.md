@@ -24,7 +24,7 @@
   
 <a href="https://dart.dev/" target="_blank" rel="noreferrer"> 
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Dart-logo-icon.svg" alt="Dart" width="40" height="40"/> 
-</a>
+</a> 
 
 <a href="https://flutter.dev/" target="_blank" rel="noreferrer"> 
 <img src="https://cdn.worldvectorlogo.com/logos/flutter.svg" alt="Dart" width="40" height="40"/> 
