@@ -1,0 +1,20 @@
+name: Alerta de Commit
+
+on:
+  push:
+    branches:
+      - main  # Cambia esto al nombre de tu rama principal si es diferente
+
+jobs:
+  send-alert:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Configurar el ambiente
+      run: echo "Configurando el ambiente"
+    
+    - name: Enviar alerta
+      env:
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+      run: |
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"Se ha guardado con exito el commit"}' $SLACK_WEBHOOK_URL
