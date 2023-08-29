@@ -17,4 +17,4 @@ jobs:
       env:
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
       run: |
-        curl -X POST -H 'Content-type: application/json' --data '{"text":"Se ha guardado con exito el commit"}' $SLACK_WEBHOOK_URL
+        curl -X POST -H 'Content-type: application/json' --data '{"text":"Se ha realizado un nuevo commit en el repositorio."}' $SLACK_WEBHOOK_URL
