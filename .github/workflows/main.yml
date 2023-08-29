@@ -3,7 +3,7 @@ name: Alerta de Commit
 on:
   push:
     branches:
-      - main  # Cambia esto al nombre de tu rama principal si es diferente
+      - master
 
 jobs:
   send-alert:
