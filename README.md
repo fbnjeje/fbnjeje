@@ -30,6 +30,10 @@
 <img src="https://cdn.worldvectorlogo.com/logos/flutter.svg" alt="Dart" width="40" height="40"/> 
 </a>
 
+<a href="https://flutter.dev/" target="_blank" rel="noreferrer"> 
+<img src="https://seeklogo.com/images/P/postman-logo-F43375A2EB-seeklogo.com.png" alt="Postman" width="40" height="40"/> 
+</a>
+
 </p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=fbnjeje&show_icons=true&locale=en&layout=compact" alt="fbnjeje" /></p>
